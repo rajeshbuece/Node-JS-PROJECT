@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: '<https://github.com/rajeshbuece/Node-JS-PROJECT.git>'
+                git branch: 'master', url: 'https://github.com/rajeshbuece/Node-JS-PROJECT.git'
             }
         }
 
